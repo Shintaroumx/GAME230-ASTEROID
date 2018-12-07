@@ -1,0 +1,18 @@
+#pragma once
+#include "GameState.h"
+#include "Score.h" 
+#include"SoundManager.h"
+
+class GameOver : public State
+{
+public:
+	void Start(sf::RenderWindow* window);
+	void Update(sf::RenderWindow* window,float dt, Clock &timer, Clock &ufoTimer);
+	void Render(sf::RenderWindow* window);
+	void Destroy(sf::RenderWindow* window);
+private:
+	sf::Text* gameOverText;
+	bool enterKey;
+	SoundManager *SEManager;
+
+};

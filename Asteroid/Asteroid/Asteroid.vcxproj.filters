@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\State">
+      <UniqueIdentifier>{2ef0db32-60e4-4b86-9463-f25b39a18161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\State">
+      <UniqueIdentifier>{68ce920d-35ed-4118-bcec-94f94f4b6fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject">
+      <UniqueIdentifier>{7b90cdb4-fc1d-40eb-bf50-b93629c9ace2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject">
+      <UniqueIdentifier>{ea410d8b-8d75-4977-8bb2-9c6f8916fee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BackUp">
+      <UniqueIdentifier>{d794a0d1-4c82-45b2-9109-c339d73396d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lives.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>源文件\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>源文件\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>源文件\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Spaceship.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件\BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="Win.cpp">
+      <Filter>源文件\State</Filter>
+    </ClCompile>
+    <ClCompile Include="UFO.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sfml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lives.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>头文件\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>头文件\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>头文件\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Spaceship.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Win.h">
+      <Filter>头文件\State</Filter>
+    </ClInclude>
+    <ClInclude Include="UFO.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualEffect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
